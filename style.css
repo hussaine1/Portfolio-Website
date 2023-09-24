@@ -1,0 +1,46 @@
+h1, h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    background-color: #FAF1E4;
+}
+.navigation-css {
+    background-color: #9EB384;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 3rem;
+}
+.button-css {
+    background-color:  #CEDEBD;
+    border-radius: 3rem; 
+    border: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+.button-css:hover {
+    background-color: #CEDEBD;
+    color: black;
+}
+
+.icon {
+    height: 20px; 
+    width: 20px;
+
+}
+.noHover{
+    pointer-events: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    
+    .button-css{
+        text-indent: -9999px;                 /* sends the text off-screen */
+          /* shows image */
+        background-size: 35px;
+        height: 60px; 
+        width: 60px;                       /* be sure to set height & width */
+        white-space: nowrap; 
+        background-color: #CEDEBD;
+        border: none;
+    }
+}
