@@ -1,5 +1,6 @@
-h1, h2 {
-    font-family: 'Ubuntu', sans-serif;
+
+h1, h2, h3, p {
+    color: #435334;
 }
 body {
     background-color: #FAF1E4;
@@ -9,27 +10,44 @@ body {
     margin-top: 10px;
     padding: 10px;
     border-radius: 3rem;
+    
 }
 .button-css {
     background-color:  #CEDEBD;
     border-radius: 3rem; 
     border: none;
-    color: black;
-    font-family: 'Ubuntu', sans-serif;
+    color: #435334;
+    font-weight: 600;
+    
 }
 .button-css:hover {
     background-color: #CEDEBD;
-    color: black;
+    color: #435334;
+    border: 5px solid #435334;
 }
 
 .icon {
-    height: 20px; 
-    width: 20px;
+    height: 30px; 
+    width: 30px;
 
 }
 .noHover{
     pointer-events: none;
 }
+.professional-pic, .proj-pic {
+    border-radius: 3rem;
+    border: 10px solid #CEDEBD;
+}
+.home-text, .skills , .education, .professional-pic, .projects-page {
+    animation: fadeIn 2s; 
+    
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
 
 @media only screen and (max-width: 1000px) {
     
