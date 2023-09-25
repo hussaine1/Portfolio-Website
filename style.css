@@ -10,12 +10,13 @@ body {
     margin-top: 10px;
     padding: 10px;
     border-radius: 3rem;
+    border: 5px solid #CEDEBD;
     
 }
 .button-css {
-    background-color:  #CEDEBD;
+    background-color: #FAF1E4;
     border-radius: 3rem; 
-    border: none;
+    border: 5px solid #CEDEBD;
     color: #435334;
     font-weight: 600;
     
@@ -34,12 +35,21 @@ body {
 .noHover{
     pointer-events: none;
 }
-.professional-pic, .proj-pic {
+.professional-pic, .proj-pic, .interest-cards {
     border-radius: 3rem;
     border: 10px solid #CEDEBD;
 }
-.home-text, .skills , .education, .professional-pic, .projects-page {
+.home-text, .skills , .education, .professional-pic, .projects-page, .interests-page, .contact-me-page {
     animation: fadeIn 2s; 
+    
+}
+a, a:link a:visited, a:hover, a:active {
+    color: #435334;
+}
+a:hover {
+    text-decoration: none;
+}
+.interest-imgs {
     
 }
 @keyframes fadeIn {
