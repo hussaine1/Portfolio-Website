@@ -49,9 +49,7 @@ a, a:link a:visited, a:hover, a:active {
 a:hover {
     text-decoration: none;
 }
-.interest-imgs {
-    
-}
+
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
@@ -61,19 +59,29 @@ a:hover {
 
 @media only screen and (max-width: 1000px) {
     
-    .button-css{
-        text-indent: -9999px;                 /* sends the text off-screen */
-          /* shows image */
+    .button-css{                
         background-size: 35px;
         height: 60px; 
         width: 60px;                       /* be sure to set height & width */
-        white-space: nowrap; 
         background-color: #CEDEBD;
         border: none;
+        text-indent: -9999px;
+        display: block;
+        white-space: nowrap; 
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+    .button-css:hover {
+        
     }
     .icon {
-        height: 40px; 
-        width: 40px;
-        padding-left: 20%;
+        display: block;
+        height: 35px; 
+        width: 35px;
+        box-sizing: border-box;
+    }
+    .icon {
+        padding-left: 5px;
+        margin-left: 15%;
     }
 }
